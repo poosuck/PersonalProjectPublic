@@ -20,6 +20,8 @@ html,
 body {
   margin: 0;
   min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   background:
     radial-gradient(circle at top, rgba(176, 122, 84, 0.16), transparent 34%),
     linear-gradient(180deg, #efe7dc 0%, #f5f2ec 46%, #ebe7e0 100%);
@@ -175,6 +177,7 @@ img {
 .muted {
   margin: 0;
   color: var(--muted);
+  font-size: 16px;
   line-height: 1.45;
 }
 
@@ -231,6 +234,15 @@ img {
 .product-card h3 {
   margin: 0;
   font-size: 20px;
+}
+
+.user-card p,
+.current-user p,
+.detail-card p,
+.panel p,
+.note-box,
+.result-score {
+  font-size: 16px;
 }
 
 .tag-row,
@@ -503,6 +515,26 @@ img {
 
   .hero p {
     max-width: none;
+    font-size: 15px;
+  }
+
+  .section-title h2,
+  .user-card h3,
+  .product-card h3,
+  .result-card h3,
+  .profile-header h2 {
+    font-size: 18px;
+  }
+
+  .section-title p,
+  .muted,
+  .user-card p,
+  .current-user p,
+  .detail-card p,
+  .panel p,
+  .note-box,
+  .result-score {
+    font-size: 14px;
   }
 
   .section-title,

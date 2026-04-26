@@ -1,0 +1,4 @@
+user_id,name,email,height,weight,usual_top_size,usual_bottom_size,shoulder_type,arm_length_type,body_ratio,body_feature_1,body_feature_2,body_feature_3,profile_summary
+U001,서현,test1@email.com,175,68,M,30,넓음,짧음,상체발달,어깨넓음,팔짧음,허리얇음,어깨가 있는 편이며 소매 길이에 민감하고 상의 총장 체크가 필요함
+U002,민지,test2@email.com,162,52,S,26,보통,보통,균형형,허리얇음,골반있음,다리김,허리 라인이 강조되는 핏이 잘 맞고 하의 실루엣 확인이 중요함
+U003,서준,test3@email.com,178,74,L,32,넓음,보통,상체발달,가슴발달,어깨넓음,허벅지보통,상의 어깨와 가슴 여유를 먼저 확인해야 하며 정핏보다는 세미오버핏이 안정적임
